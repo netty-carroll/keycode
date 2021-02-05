@@ -9,11 +9,14 @@ window.addEventListener('keydown',(e)=>{
     display.innerHTML = `
     <div class = "key">
         ${key}
+        <small>event.key</small>
     </div> 
-    <div class = "key">
-        ${keyCode}
+  
+        ${code}
+       
     </div>
     <div class ="key">
-        ${code}
+        ${keyCode}
+    
     </div>`
 })
