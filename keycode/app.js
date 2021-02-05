@@ -3,7 +3,7 @@ const display = document.getElementById("display")
 window.addEventListener('keydown',(e)=>{
     console.log(e);
     const key = e.key;
-    const keycode = e.keycode;
+    const keyCode = e.keyCode;
     const code = e.code;
     
     display.innerHTML = `
@@ -11,7 +11,7 @@ window.addEventListener('keydown',(e)=>{
         ${key}
     </div> 
     <div class = "key">
-        ${keycode}
+        ${keyCode}
     </div>
     <div class ="key">
         ${code}
