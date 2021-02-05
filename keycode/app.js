@@ -1,7 +1,7 @@
 const display = document.getElementById("display")
 
 window.addEventListener('keydown',(e)=>{
-    console.log(e);
+   // console.log(e);
     const key = e.key;
     const keyCode = e.keyCode;
     const code = e.code;
@@ -11,12 +11,12 @@ window.addEventListener('keydown',(e)=>{
         ${key}
         <small>event.key</small>
     </div> 
-  
-        ${code}
-       
+  <div class ="key">
+        ${keyCode}
+       <small>event.which</small>
     </div>
     <div class ="key">
-        ${keyCode}
-    
+        ${code}
+    <small>event.code</small>
     </div>`
 })
