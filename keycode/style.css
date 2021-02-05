@@ -1,0 +1,17 @@
+{
+    box-sizing: border-box;
+}
+
+body {
+    background-color:blueviolet;
+    display: flex;
+align-items:center;
+justify-content: center;
+height: 100vh;
+margin:0;
+}
+
+.key {
+    font-size: 18px;
+    padding:20px;
+}
