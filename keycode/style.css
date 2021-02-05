@@ -1,0 +1,12 @@
+{
+    box-sizing: border-box;
+}
+
+body {
+    background-color:blueviolet;
+    display: flex;
+align item:center;
+justify-content: center;
+height: 100;
+margin:0;
+}
